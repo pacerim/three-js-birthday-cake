@@ -310,7 +310,7 @@ let allowBlowout=false;
 
 
 const holdReminder=document.getElementById('hold-reminder');
-const audio=document.getElementById("happy-birthday-audio");
+const audio=document.getElementById("audio");
 
 audio.addEventListener('ended', function() {
 	holdReminder.style.display = 'flex';
